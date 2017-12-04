@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>AdminCategoryListServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminCategoryListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminCategoryListServlet</servlet-name>
+        <url-pattern>/adminCategoryList</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminProductListServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminProductListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminProductListServlet</servlet-name>
+        <url-pattern>/adminProductList</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AdminDisplayProductCategoryServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminDisplayProductCategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminDisplayProductCategoryServlet</servlet-name>
+        <url-pattern>/adminDisplayProductCategory</url-pattern>
+    </servlet-mapping>
+</web-app>
