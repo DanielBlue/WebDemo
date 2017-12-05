@@ -21,6 +21,7 @@
         <servlet-name>AdminProductListServlet</servlet-name>
         <url-pattern>/adminProductList</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>AdminDisplayProductCategoryServlet</servlet-name>
         <servlet-class>pers.mao.web.AdminDisplayProductCategoryServlet</servlet-class>
@@ -28,5 +29,77 @@
     <servlet-mapping>
         <servlet-name>AdminDisplayProductCategoryServlet</servlet-name>
         <url-pattern>/adminDisplayProductCategory</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminAddProductServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminAddProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminAddProductServlet</servlet-name>
+        <url-pattern>/adminAddProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminEditProductServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminEditProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminEditProductServlet</servlet-name>
+        <url-pattern>/adminEditProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminUpdateProductServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminUpdateProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminUpdateProductServlet</servlet-name>
+        <url-pattern>/adminUpdateProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminDeleteProductServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminDeleteProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminDeleteProductServlet</servlet-name>
+        <url-pattern>/adminDeleteProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminAddCategoryServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminAddCategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminAddCategoryServlet</servlet-name>
+        <url-pattern>/adminAddCategoryServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminUpdateCategoryServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminUpdateCategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminUpdateCategoryServlet</servlet-name>
+        <url-pattern>/adminUpdateCategoryServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminEditCategoryServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminEditCategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminEditCategoryServlet</servlet-name>
+        <url-pattern>/adminEditCategoryServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminDeleteCategoryServlet</servlet-name>
+        <servlet-class>pers.mao.web.AdminDeleteCategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminDeleteCategoryServlet</servlet-name>
+        <url-pattern>/adminDeleteCategoryServlet</url-pattern>
     </servlet-mapping>
 </web-app>

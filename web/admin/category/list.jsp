@@ -52,14 +52,14 @@
 								<td style="CURSOR: hand; HEIGHT: 22px" align="center"
 									width="17%">${category.cname }</td>
 								<td align="center" style="HEIGHT: 22px"><a
-										href="${ pageContext.request.contextPath }/admin/category/edit.jsp">
+										href="${ pageContext.request.contextPath }/adminEditCategoryServlet?cid=${category.cid }">
 									<img
 											src="${pageContext.request.contextPath}/images/i_edit.gif"
 											border="0" style="CURSOR: hand">
 								</a></td>
 
 								<td align="center" style="HEIGHT: 22px"><a
-										href="">
+										href="${pageContext.request.contextPath}/adminDeleteCategoryServlet?cid=${category.cid}">
 									<img src="${pageContext.request.contextPath}/images/i_del.gif"
 										 width="16" height="16" border="0" style="CURSOR: hand">
 								</a></td>
